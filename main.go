@@ -4,6 +4,8 @@ import (
 	"latenuke/funcs"
 	"fmt"
 	"sync"
+	"bufio"
+	"os"
 )
 
 func main() {
@@ -11,6 +13,8 @@ func main() {
 	var name string
 	var guildID string
 	var text string
+
+	scanner := bufio.NewReader(os.Stdin)
 
 	fmt.Println(cyan)
 	fmt.Println(`
@@ -31,7 +35,7 @@ func main() {
 	fmt.Print(cyan + "?" + reset + " New Guild Name " + cyan)
 	fmt.Scanln(&name)
 	fmt.Print(cyan + "?" + reset + " Embed Text " + cyan)
-	fmt.Scanln(&text)
+	text, _ = scanner.ReadString('\n')
 
 	var embed = fmt.Sprintf(`
 {
