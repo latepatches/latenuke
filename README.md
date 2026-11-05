@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f9381b1-e06e-4d7e-9876-20d059ba8ef0" />
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/5f9381b1-e06e-4d7e-9876-20d059ba8ef0" />
 
 # latenuke, make golang #1 again
 
