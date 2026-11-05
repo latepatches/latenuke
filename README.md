@@ -1,4 +1,4 @@
-<img width="800" height="520" alt="image" src="https://discord-avatar-maker.app?bg=88C800&fg=000000&eyc=none&os=base-shape&is=squinting" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/5f9381b1-e06e-4d7e-9876-20d059ba8ef0" />
 
 # latenuke, make golang #1 again
 
